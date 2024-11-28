@@ -1,0 +1,358 @@
+body {
+    background-color: #f5f5f5;
+}
+
+/* Start Navbar */
+.collapse ul a {
+    position: relative;
+}
+
+.collapse li {
+    padding: .625rem 0 .625rem 1.25rem;
+}
+
+/* End Navbar */
+/* Start Header */
+.header {
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100vh;
+}
+
+.header .head-layer {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.typing::after {
+    content: "|";
+    animation: typewriter 10s infinite;
+}
+
+@keyframes typewriter {
+    0% {
+        content: "Des|";
+    }
+
+    5% {
+        content: "Desig";
+    }
+
+    10% {
+        content: "Designer|";
+    }
+
+    15% {
+        content: "Desig";
+    }
+
+    20% {
+        content: "Des|";
+    }
+    23%{
+        content:"|"
+    }
+    25% {
+        content: "Deve|";
+    }
+
+    30% {
+        content: "Develop";
+    }
+
+    35% {
+        content: "Developer|";
+    }
+
+    40% {
+        content: "Develop";
+    }
+
+    45% {
+        content: "Deve|";
+    }
+    47%{
+        content:"|"
+    }
+    50% {
+        content: "Free|";
+    }
+
+    55% {
+        content: "Freelanc";
+    }
+
+    60% {
+        content: "Freelancer|";
+    }
+
+    65% {
+        content: "Freelanc";
+    }
+
+    70% {
+        content: "Free|";
+    }
+    73%{
+        content:"|"
+    }
+    75% {
+        content: "Photo|";
+    }
+
+    80% {
+        content: "Photogra";
+    }
+
+    85% {
+        content: "Photographer|";
+    }
+
+    90% {
+        content: "Photogra";
+    }
+
+    95% {
+        content: "Photo|";
+    }
+    100%{
+        content:"|"
+    }
+}
+
+
+/* End Header */
+/* Start About */
+.about-content h2 {
+    position: relative;
+}
+
+.about-content h2::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    bottom: -12px;
+}
+
+/* End About */
+/* Start Services */
+.section-head p {
+    position: relative;
+}
+
+.blue-line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078FF;
+    margin: 0 auto;
+}
+
+.serv-card {
+    padding: 2.5rem 1.3rem;
+}
+
+.serv-card i {
+    font-size: 40px;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border: 10px solid #0078FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+}
+
+.serv-card i:hover {
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+    color: white;
+}
+
+/* End Services */
+/* Start Experience */
+.experience {
+    background-image: url(../imgs/counters-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 6.25rem 0;
+    position: relative;
+}
+
+.blue-layer {
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.items i {
+    width: 80px;
+    height: 80px;
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Experience */
+/* Start Portfolio */
+.portbox-img img {
+    transition: all 1s;
+}
+
+.port-box .portbox-img:hover img {
+    transform: scale(125%);
+}
+
+.card-content p {
+    font-size: 12px;
+}
+
+.card-ico i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Portfolio */
+/* Start gallery */
+.gallery {
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10rem 0;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 10px;
+}
+
+.carousel-item:nth-child(2) img {
+    width: 100px;
+}
+
+.carousel-content p {
+    padding: 0 200px;
+}
+
+.carousel-inner .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/* End gallery */
+/* Start Blogs */
+.card-btt {
+    width: 65px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.card-btt span {
+    padding: 5px 15px;
+}
+
+.card a {
+    color: rgb(69, 69, 69);
+    transition: all 1s;
+}
+
+.card a:hover {
+    color: #0078ff;
+}
+
+/* End Blogs */
+/* Start Form */
+.form {
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10rem 0 3rem;
+    position: relative;
+}
+
+.form h5 {
+    position: relative;
+}
+
+.form h5::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    position: absolute;
+    bottom: -12px;
+}
+
+.form input,
+.form textarea {
+    border-radius: 0;
+}
+
+form button {
+    border-radius: 50px;
+    border: 5px solid #ffffff;
+    color: white;
+    padding: 10px 20px;
+    transition: all .4s;
+    width: 180px !important;
+}
+
+form button:hover {
+    background-color: #0077ff;
+    border-color: #CDE1F8;
+    opacity: .8;
+}
+
+.form-social i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s;
+    color: black;
+}
+
+.form-social i:hover {
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+    color: white;
+}
+
+/* End Form */
+/* Start Footer */
+.footer {
+    background-color: #0062D2;
+}
+
+/* End Footer */
+@media (max-width:768px) {
+    .form-style {
+        padding: 3rem 1.25rem !important;
+    }
+}
